@@ -1,34 +1,33 @@
 .projects-container {
-    padding: 50px;
-    text-align: center;
-  }
-  
-  .projects-grid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .project-card {
-    background-color: #1b263b; /* Darker Blue */
-    color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-    width: 200px;
-    text-align: left;
-  }
-  
-  .project-card h3 {
-    margin-top: 0;
-  }
-  
-  .project-link {
-    text-decoration: none;
-    color: #70a9ff; /* Sky Blue */
-  }
-  
-  .project-link:hover {
-    text-decoration: underline;
-  }
-  
+  padding: 50px;
+  text-align: center;
+}
+
+.projects-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-card {
+  background-color: #1E2A5E;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #70a9ff;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}

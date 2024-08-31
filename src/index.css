@@ -2,37 +2,24 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0d1b2a; /* Dark Blue */
-  color: #ffffff; /* White */
+  background-color: --background-color; 
+  color: --text; 
 }
 
 .navbar {
-  background-color: #1b263b; /* Darker Blue */
+  background-color: #1b263b; 
   padding: 1rem;
   text-align: center;
 }
 
 .navbar a {
-  color: #70a9ff; /* Sky Blue */
+  color: #ffffff; 
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
 }
 
-.footer {
-  background-color: #1b263b;
-  padding: 1rem;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
-
 .home, .about, .projects, .contact {
   padding: 2rem;
   text-align: center;
-}
-
-h1 {
-  color: #70a9ff; /* Sky Blue */
 }

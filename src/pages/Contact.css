@@ -15,10 +15,10 @@
   .contact-list a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #70a9ff; /* Sky Blue */
+    color: #70a9ff; 
   }
   
   .contact-list a:hover {
-    color: #1b263b; /* Darker Blue */
+    color: #1b263b; 
   }
   
