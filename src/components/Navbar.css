@@ -1,9 +1,11 @@
 .navbar {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
-    background-color: #819BB1;
-}
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--navbar-color); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  }
 
 .links {
     display: flex;
@@ -12,5 +14,30 @@
 
 .link {
     text-decoration: none;
-    color: #333;
+    color: var(--text, #333); 
+}
+
+.but-theme button {
+    background-color: var(--button-background-color, #f9f9f9); 
+    color: var(--text, #333); 
+    border: 1px solid var(--text, #333); 
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+  }
+
+  .dark-mode {
+    --text: rgba(255, 255, 255, 0.87);
+    --background-color: #344386;
+    --button-background-color: #1a1a1a;
+    --navbar-color:#091239;
+}
+
+.light-mode {
+    --text: #333;
+    --background-color: #E1D7B7;
+    --button-background-color: #7b735c;
+    --navbar-color:#7b735c;
 }
